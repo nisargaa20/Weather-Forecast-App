@@ -2,7 +2,7 @@ import TimeAndLocation from "./components/TimeAndLocation";
 import TopButtons from "./components/TopButtons";
 import Inputs from "./components/Inputs";
 import TempAndDetails from "./components/TempAndDetails";
-
+import Forecast from "./components/Forecast";
 import React from 'react'
 
 const App = () => {
@@ -13,6 +13,9 @@ const App = () => {
 
     <TimeAndLocation />
     <TempAndDetails />
+    <Forecast />
+    <Forecast />
+
     </div>
   );
 };
