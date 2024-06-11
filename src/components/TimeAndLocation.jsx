@@ -1,21 +1,23 @@
 import React from "react";
 
 
-function TimeAndLocation() {
+const TimeAndLocation = ({
+  weather: { localTime, name, country },
+}) => {
   return (
     <div>
       <div className="flex items-center justify-center my-6">
         <p className="text-white text-xl font-extralight">
-            Tuesday, 20 May 2024 | Local time:07:21 AM
-         
+          {localTime}
         </p>
       </div>
-
       <div className="flex items-center justify-center my-3">
-        <p className="text-white text-3xl font-medium">Mandya,IN</p>
+        <p className="text-white text-3xl font-medium">
+          {`${name}, ${country}`}
+        </p>
       </div>
     </div>
   );
-}
+};
 
 export default TimeAndLocation;
