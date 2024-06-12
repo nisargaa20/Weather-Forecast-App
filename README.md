@@ -47,6 +47,7 @@ This project was developed for the Capabl Hackathon.
 
 ### Deployment
 
-The Weather App is deployed on Vercel and can be accessed at the following URL: https://weather-forecast-app-nisarga-g-rs-projects.vercel.app/
+The Weather App is deployed on Vercel and can be accessed at the following URL:
+https://weather-forecast-app-nisarga-g-rs-projects.vercel.app/
 
  
