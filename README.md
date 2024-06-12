@@ -1,4 +1,4 @@
-# Weather App
+# Weather Forecasting App
 
 This Weather App is a React-based web application that displays current weather conditions and forecasts for any city in the world. The app fetches weather data from the OpenWeatherMap API and presents it in an attractive and user-friendly interface. Users can search for specific cities, get weather data based on their current location, and toggle between Celsius and Fahrenheit units.
 
